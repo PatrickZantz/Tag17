@@ -96,6 +96,20 @@ p {
 
 .headTitle {
     padding-top: 50px;
+    display: flex;
+    gap: 10px;
+    align-self: center;
+
+}
+
+.headTextTitle {
+    margin-left: 8%;
+}
+
+.imgEle {
+    width: 30px;
+    position: fixed;
+
 }
 
 .sec_ilu {
@@ -177,10 +191,16 @@ p {
 }
 
 .imgAside {
+    align-self: center;
 
     img {
-        width: 100%;
+        width: 90%;
     }
+
+}
+
+.textAside p {
+    line-height: 2;
 }
 
 .textAside img {
