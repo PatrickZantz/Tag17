@@ -136,6 +136,7 @@ p {
 .about {
     display: flex;
     gap: 15vw;
+    justify-content: center;
 }
 
 .about img {
@@ -147,7 +148,10 @@ p {
 }
 
 .sec_h3 {
-    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+
+    
 }
 
 .tiles {
